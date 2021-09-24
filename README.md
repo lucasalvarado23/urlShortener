@@ -10,4 +10,4 @@ Futute improvements will definently be in the UI/UX, I did use bootstrap to make
 
 Working Demo can be seen here 
 
-https://watch.screencastify.com/v/ZOx39SaxwLm9m8ltONSA
+https://watch.screencastify.com/v/TT5ubYlQ54s9ux0KNymN
