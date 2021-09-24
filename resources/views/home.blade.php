@@ -14,11 +14,13 @@
     
         <div class="container mt-5">
            <div class="row">
-               <div class="col-md-10 card shadow-lg p-5">
+               <div class="col-md-12 card shadow-lg p-5">
+
+               <h1>Shorten Your URL! </h1>
 
                     <form  id="formShort" >
                     
-                        <input type="text"  name="to_url" class="form-control" placeholder="Url Here" id="toUrl">
+                        <input type="text"  name="to_url" class="form-control" placeholder="Add your URL here" id="toUrl">
                         
                         <input type="checkbox" name="nsfw" value="0" id="nsfw"> Url NFSW (Not Save for Work)
                     
@@ -49,8 +51,8 @@
                             <script>
                                let timerInterval
                                 Swal.fire({
-                                    title: 'This url is not safe for work, please wait',
-                                    html: 'I will close in 10 seconds.',
+                                    title: "This url is not safe for work, if you don't want to proceed, click cancel",
+                                    html: 'I will redirect you in 10 seconds.',
                                     timer: 10000,
                                     showCancelButton: true,                                  
                                     timerProgressBar: true,
